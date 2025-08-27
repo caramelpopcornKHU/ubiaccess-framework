@@ -5,7 +5,7 @@ module.exports = {
   },
 
   post_list: {
-    sql: `select id,category,title,contents,createDate,likes,comments,thumbnail
+    sql: `select id,user,category,title,contents,createDate,likes,comments,thumbnail
                 from test.post`,
     count: `select count(*) as total 
                   from test.post`,
@@ -14,11 +14,20 @@ module.exports = {
     page: ` limit # `,
   },
 
+  // 좋아요 top5 게시물
   post_list_like_order: {
-    sql: `SELECT id, title, likes
+    sql: `SELECT id,user,title, likes
           FROM test.post
           ORDER BY likes desc
           LIMIT 5`,
+  },
+
+  // 좋아요 top4 명 이름
+  post_user_list_order_likes: {
+    sql: `SELECT unique(USER)
+    FROM test.post
+    ORDER BY likes DESC
+    LIMIT 4`,
   },
 
   post_read: {
@@ -35,15 +44,15 @@ module.exports = {
   },
   //post 데이터 추가_다른종류1
   post_add_vue1: {
-    sql: `insert into test.post(category,title,contents) 
+    sql: `insert into test.post(user,category,title,contents) 
             values
-            (:category,:title,:contents)`,
+            (:user,:category,:title,:contents)`,
   },
   //post 데이터 추가_다른종류2
   post_add_vue2: {
-    sql: `insert into test.post(category,title,contents,thumbnail) 
+    sql: `insert into test.post(user,category,title,contents,thumbnail) 
             values
-            (:category,:title,:contents,:thumbnail)`,
+            (:user,:category,:title,:contents,:thumbnail)`,
   },
 
   // post 데이터 수정
@@ -90,7 +99,7 @@ module.exports = {
   },
 
   // 회원가입
-  users_sign_in: {
+  users_sign_up: {
     sql: `INSERT INTO test.users
           (username,PASSWORD,email)
           VALUES

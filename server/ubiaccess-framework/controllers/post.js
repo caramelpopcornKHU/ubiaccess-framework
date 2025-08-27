@@ -47,6 +47,20 @@ module.exports = class Post {
   }
 
   ///
+  /// 유저 조회하기 - 좋아요 순서대로 - top4
+  ///
+
+  /**
+   * @RequestMapping(path="/list-user-like", method="get,post")
+   */
+  async listUserLikeOrder(req, res) {
+    logger.debug(`Post::listLike 호출됨`);
+
+    const sqlName = "post_user_list_order_likes";
+    this.controllerHelper.execute(req, res, sqlName);
+  }
+
+  ///
   /// 리스트 조회하기 (페이지 단위로 조회하기)
   ///
 
@@ -184,12 +198,12 @@ module.exports = class Post {
   ///
 
   /**
-   * @RequestMapping(path="/sign-in", method="get,post")
+   * @RequestMapping(path="/sign-up", method="get,post")
    */
   async signIn(req, res) {
     logger.debug(`Post::signIn 호출됨`);
 
-    const sqlName = "users_sign_in";
+    const sqlName = "users_sign_up";
     this.controllerHelper.execute(req, res, sqlName);
   }
 
