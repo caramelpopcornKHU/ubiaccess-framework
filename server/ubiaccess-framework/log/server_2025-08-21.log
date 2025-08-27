@@ -1,0 +1,213 @@
+2025-08-21 16:14:05.014 - INFO: [logger.js:246:9] service loader called.
+2025-08-21 16:14:05.025 - INFO: [logger.js:246:9] controller loader called.
+2025-08-21 16:14:05.026 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-21 16:14:05.026 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-21 16:14:05.207 - INFO: [logger.js:246:9] Http Server started.
+2025-08-21 16:14:05.207 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-21 16:14:05.208 - INFO: [logger.js:246:9] Namespace -> ::_8001_12400
+2025-08-21 16:14:05.209 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-21 16:38:07.152 - INFO: [logger.js:246:9] service loader called.
+2025-08-21 16:38:07.162 - INFO: [logger.js:246:9] controller loader called.
+2025-08-21 16:38:07.162 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-21 16:38:07.163 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-21 16:38:07.319 - INFO: [logger.js:246:9] Http Server started.
+2025-08-21 16:38:07.320 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-21 16:38:07.320 - INFO: [logger.js:246:9] Namespace -> ::_8001_12192
+2025-08-21 16:38:07.322 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-21 16:42:43.674 - INFO: [logger.js:246:9] service loader called.
+2025-08-21 16:42:43.684 - INFO: [logger.js:246:9] controller loader called.
+2025-08-21 16:42:43.685 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-21 16:42:43.685 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-21 16:42:43.841 - INFO: [logger.js:246:9] Http Server started.
+2025-08-21 16:42:43.842 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-21 16:42:43.842 - INFO: [logger.js:246:9] Namespace -> ::_8001_19880
+2025-08-21 16:42:43.844 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-21 16:43:29.728 - INFO: [logger.js:246:9] service loader called.
+2025-08-21 16:43:29.739 - INFO: [logger.js:246:9] controller loader called.
+2025-08-21 16:43:29.739 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-21 16:43:29.739 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-21 16:43:29.892 - INFO: [logger.js:246:9] Http Server started.
+2025-08-21 16:43:29.892 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-21 16:43:29.893 - INFO: [logger.js:246:9] Namespace -> ::_8001_21224
+2025-08-21 16:43:29.895 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-21 16:44:44.560 - INFO: [logger.js:246:9] service loader called.
+2025-08-21 16:44:44.570 - INFO: [logger.js:246:9] controller loader called.
+2025-08-21 16:44:44.571 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-21 16:44:44.571 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-21 16:44:44.739 - INFO: [logger.js:246:9] Http Server started.
+2025-08-21 16:44:44.739 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-21 16:44:44.740 - INFO: [logger.js:246:9] Namespace -> ::_8001_8884
+2025-08-21 16:44:44.742 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-21 16:44:49.468 - DEBUG: [logger.js:246:9] GET /person/list requested
+2025-08-21 16:44:49.469 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-21 16:44:49.490 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 16:44:49.491 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person
+2025-08-21 16:59:50.638 - INFO: [logger.js:246:9] service loader called.
+2025-08-21 16:59:50.651 - INFO: [logger.js:246:9] controller loader called.
+2025-08-21 16:59:50.651 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-21 16:59:50.651 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-21 16:59:50.823 - INFO: [logger.js:246:9] Http Server started.
+2025-08-21 16:59:50.823 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-21 16:59:50.824 - INFO: [logger.js:246:9] Namespace -> ::_8001_8932
+2025-08-21 16:59:50.828 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-21 16:59:52.501 - DEBUG: [logger.js:246:9] GET /person/list requested
+2025-08-21 16:59:52.502 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-21 16:59:52.520 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 16:59:52.529 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person where age > 21
+2025-08-21 17:00:51.320 - DEBUG: [logger.js:246:9] GET /person/list requested
+2025-08-21 17:00:51.321 - DEBUG: [logger.js:246:9] PARAMS -> {"page":"1"}
+2025-08-21 17:00:51.324 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:00:51.328 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person where age > 21 limit NaN, NaN
+2025-08-21 17:00:51.328 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+2025-08-21 17:00:55.900 - INFO: [logger.js:246:9] service loader called.
+2025-08-21 17:00:55.910 - INFO: [logger.js:246:9] controller loader called.
+2025-08-21 17:00:55.910 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-21 17:00:55.912 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-21 17:00:56.064 - INFO: [logger.js:246:9] Http Server started.
+2025-08-21 17:00:56.065 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-21 17:00:56.066 - INFO: [logger.js:246:9] Namespace -> ::_8001_5576
+2025-08-21 17:00:56.068 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-21 17:00:58.101 - DEBUG: [logger.js:246:9] GET /person/list requested
+2025-08-21 17:00:58.101 - DEBUG: [logger.js:246:9] PARAMS -> {"page":"1"}
+2025-08-21 17:00:58.119 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:00:58.121 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person limit NaN, NaN
+2025-08-21 17:00:58.121 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+2025-08-21 17:01:01.164 - DEBUG: [logger.js:246:9] GET /person/list requested
+2025-08-21 17:01:01.164 - DEBUG: [logger.js:246:9] PARAMS -> {"page":"1"}
+2025-08-21 17:01:01.166 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:01:01.167 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person limit NaN, NaN
+2025-08-21 17:01:01.167 - DEBUG: [logger.js:246:9] Error in executing SQL -> Error: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+2025-08-21 17:01:10.391 - DEBUG: [logger.js:246:9] GET /person/list requested
+2025-08-21 17:01:10.392 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-21 17:01:10.393 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:01:10.395 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person
+2025-08-21 17:01:34.445 - DEBUG: [logger.js:246:9] GET /person/list requested
+2025-08-21 17:01:34.445 - DEBUG: [logger.js:246:9] PARAMS -> {"page":"1","perPage":"1"}
+2025-08-21 17:01:34.447 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:01:34.448 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person limit 0, 1
+2025-08-21 17:01:45.919 - DEBUG: [logger.js:246:9] GET /person/list requested
+2025-08-21 17:01:45.920 - DEBUG: [logger.js:246:9] PARAMS -> {"page":"1","perPage":"2"}
+2025-08-21 17:01:45.922 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:01:45.923 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person limit 0, 2
+2025-08-21 17:02:03.646 - DEBUG: [logger.js:246:9] GET /person/list requested
+2025-08-21 17:02:03.646 - DEBUG: [logger.js:246:9] PARAMS -> {"page":"2","perPage":"2"}
+2025-08-21 17:02:03.647 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:02:03.648 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person limit 2, 2
+2025-08-21 17:02:12.783 - DEBUG: [logger.js:246:9] GET /person/list requested
+2025-08-21 17:02:12.783 - DEBUG: [logger.js:246:9] PARAMS -> {"page":"2","perPage":"3"}
+2025-08-21 17:02:12.784 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:02:12.786 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person limit 3, 3
+2025-08-21 17:02:46.183 - DEBUG: [logger.js:246:9] GET /person/list requested
+2025-08-21 17:02:46.183 - DEBUG: [logger.js:246:9] PARAMS -> {"page":"2","perPage":"3"}
+2025-08-21 17:02:46.185 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:02:46.186 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person limit 3, 3
+2025-08-21 17:02:53.158 - DEBUG: [logger.js:246:9] GET /person/list requested
+2025-08-21 17:02:53.158 - DEBUG: [logger.js:246:9] PARAMS -> {"page":"2","perPage":"2"}
+2025-08-21 17:02:53.159 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:02:53.161 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person limit 2, 2
+2025-08-21 17:09:48.605 - DEBUG: [logger.js:246:9] GET /person/list requested
+2025-08-21 17:09:48.605 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-21 17:09:48.607 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:09:48.608 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person
+2025-08-21 17:11:39.536 - DEBUG: [logger.js:246:9] POST /person/list requested
+2025-08-21 17:11:39.537 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-21 17:11:39.538 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:11:39.540 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person
+2025-08-21 17:12:59.605 - DEBUG: [logger.js:246:9] POST /person/list requested
+2025-08-21 17:12:59.606 - DEBUG: [logger.js:246:9] PARAMS -> {"page":"1","perPage":"2"}
+2025-08-21 17:12:59.607 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:12:59.608 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person limit 0, 2
+2025-08-21 17:13:25.199 - DEBUG: [logger.js:246:9] POST /person/list requested
+2025-08-21 17:13:25.199 - DEBUG: [logger.js:246:9] PARAMS -> {"page":"2","perPage":"2"}
+2025-08-21 17:13:25.200 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:13:25.201 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person limit 2, 2
+2025-08-21 17:13:37.829 - DEBUG: [logger.js:246:9] POST /person/list requested
+2025-08-21 17:13:37.829 - DEBUG: [logger.js:246:9] PARAMS -> {"page":"4","perPage":"2"}
+2025-08-21 17:13:37.831 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:13:37.832 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person limit 6, 2
+2025-08-21 17:13:46.148 - DEBUG: [logger.js:246:9] POST /person/list requested
+2025-08-21 17:13:46.149 - DEBUG: [logger.js:246:9] PARAMS -> {"page":"2","perPage":"2"}
+2025-08-21 17:13:46.150 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total
+                from test.person
+2025-08-21 17:13:46.151 - DEBUG: [logger.js:246:9] SQL -> select id,name,age,mobile
+                from test.person limit 2, 2
+2025-08-21 17:20:04.973 - INFO: [logger.js:246:9] service loader called.
+2025-08-21 17:20:04.985 - INFO: [logger.js:246:9] controller loader called.
+2025-08-21 17:20:04.985 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-21 17:20:04.985 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-21 17:20:05.145 - INFO: [logger.js:246:9] Http Server started.
+2025-08-21 17:20:05.146 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-21 17:20:05.146 - INFO: [logger.js:246:9] Namespace -> ::_8001_15372
+2025-08-21 17:20:05.149 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-21 17:20:39.380 - DEBUG: [logger.js:246:9] POST /person/list2 requested
+2025-08-21 17:20:39.381 - DEBUG: [logger.js:246:9] PARAMS -> {"name":"홍길%"}
+2025-08-21 17:20:39.408 - DEBUG: [logger.js:246:9] SQL -> select id, name, age, mobile
+            from test.person
+            where name like '홍길%' 
+2025-08-21 17:21:02.592 - DEBUG: [logger.js:246:9] POST /person/list2 requested
+2025-08-21 17:21:02.592 - DEBUG: [logger.js:246:9] PARAMS -> {"name":"길%"}
+2025-08-21 17:21:02.594 - DEBUG: [logger.js:246:9] SQL -> select id, name, age, mobile
+            from test.person
+            where name like '길%' 
+2025-08-21 17:21:12.311 - DEBUG: [logger.js:246:9] POST /person/list2 requested
+2025-08-21 17:21:12.311 - DEBUG: [logger.js:246:9] PARAMS -> {"name":"%길1"}
+2025-08-21 17:21:12.313 - DEBUG: [logger.js:246:9] SQL -> select id, name, age, mobile
+            from test.person
+            where name like '%길1' 
+2025-08-21 17:41:21.570 - DEBUG: [logger.js:246:9] POST /person/list2 requested
+2025-08-21 17:41:21.571 - DEBUG: [logger.js:246:9] PARAMS -> {"name":"%길1"}
+2025-08-21 17:41:21.574 - DEBUG: [logger.js:246:9] SQL -> select id, name, age, mobile
+            from test.person
+            where name like '%길1' 
+2025-08-21 17:41:26.146 - INFO: [logger.js:246:9] service loader called.
+2025-08-21 17:41:26.157 - INFO: [logger.js:246:9] controller loader called.
+2025-08-21 17:41:26.158 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-21 17:41:26.158 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-21 17:41:26.320 - INFO: [logger.js:246:9] Http Server started.
+2025-08-21 17:41:26.320 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-21 17:41:26.321 - INFO: [logger.js:246:9] Namespace -> ::_8001_20680
+2025-08-21 17:41:26.323 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-21 17:41:29.860 - DEBUG: [logger.js:246:9] POST /person/list2 requested
+2025-08-21 17:41:29.860 - DEBUG: [logger.js:246:9] PARAMS -> {"name":"%길1"}
+2025-08-21 17:41:29.878 - DEBUG: [logger.js:246:9] SQL -> select id, name, age, mobile
+            from test.person
+            where name like '%길1' 
+2025-08-21 17:41:39.251 - DEBUG: [logger.js:246:9] POST /person/list2 requested
+2025-08-21 17:41:39.251 - DEBUG: [logger.js:246:9] PARAMS -> {"name":"홍%"}
+2025-08-21 17:41:39.253 - DEBUG: [logger.js:246:9] SQL -> select id, name, age, mobile
+            from test.person
+            where name like '홍%' 
