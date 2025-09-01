@@ -25,14 +25,15 @@ app = FastAPI()
 
 # CORS 설정 (Vue 앱 주소들을 포함)
 origins = [
-    "http://localhost:5173",
-    "http://172.168.10.29:5173", # Vue 앱을 실행하는 컴퓨터 주소
-    "http://172.168.10.125:5173",# 다른 테스트용 컴퓨터 주소
-    "http://172.168.10.*:5173",# 다른 테스트용 컴퓨터 주소
+    #"http://localhost:5173",
+    #"http://172.168.10.29:5173", # Vue 앱을 실행하는 컴퓨터 주소
+    #"http://172.168.10.125:5173",# 다른 테스트용 컴퓨터 주소
+    #"http://172.168.10.*:5173",# 다른 테스트용 컴퓨터 주소
+    #"http://192.168.35.*:5173",
 ]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"], # <- 모든 주소에서 request가 들어올 수 있음
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

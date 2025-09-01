@@ -1,0 +1,91 @@
+2025-08-29 19:42:51.615 - INFO: [logger.js:246:9] service loader called.
+2025-08-29 19:42:51.630 - INFO: [logger.js:246:9] controller loader called.
+2025-08-29 19:42:51.630 - DEBUG: [logger.js:246:9] external_loader called.
+2025-08-29 19:42:51.631 - DEBUG: [logger.js:246:9] No external configuration.
+2025-08-29 19:42:51.878 - INFO: [logger.js:246:9] Http Server started.
+2025-08-29 19:42:51.879 - INFO: [logger.js:246:9] Base URL -> http://localhost:8001
+2025-08-29 19:42:51.880 - INFO: [logger.js:246:9] Namespace -> ::_8001_17776
+2025-08-29 19:42:51.884 - DEBUG: [logger.js:246:9] database SQL file loaded.
+2025-08-29 19:47:09.352 - DEBUG: [logger.js:246:9] Post::login 호출됨
+2025-08-29 19:47:09.354 - DEBUG: [logger.js:246:9] POST /api/post/login requested
+2025-08-29 19:47:09.355 - DEBUG: [logger.js:246:9] PARAMS -> {"username":"형민"}
+2025-08-29 19:47:09.465 - DEBUG: [logger.js:246:9] SQL -> SELECT username, password
+          FROM test.users
+          WHERE username = '형민'
+2025-08-29 19:47:09.547 - DEBUG: [logger.js:246:9] Post::listLike 호출됨
+2025-08-29 19:47:09.548 - DEBUG: [logger.js:246:9] POST /api/post/list-like requested
+2025-08-29 19:47:09.548 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-29 19:47:09.555 - DEBUG: [logger.js:246:9] SQL -> SELECT id,user,title, likes
+          FROM test.post
+          ORDER BY likes desc
+          LIMIT 5
+2025-08-29 19:47:09.561 - DEBUG: [logger.js:246:9] Post::listLike 호출됨
+2025-08-29 19:47:09.562 - DEBUG: [logger.js:246:9] POST /api/post/list-user-like requested
+2025-08-29 19:47:09.563 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-29 19:47:09.570 - DEBUG: [logger.js:246:9] SQL -> SELECT unique(USER)
+    FROM test.post
+    ORDER BY likes DESC
+    LIMIT 4
+2025-08-29 19:47:23.350 - DEBUG: [logger.js:246:9] Post::list 호출됨
+2025-08-29 19:47:23.351 - DEBUG: [logger.js:246:9] POST /api/post/list requested
+2025-08-29 19:47:23.351 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":4}
+2025-08-29 19:47:23.354 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total 
+                  from test.post
+2025-08-29 19:47:23.356 - DEBUG: [logger.js:246:9] SQL -> select id,user,category,title,contents,createDate,likes,comments,thumbnail
+                from test.post  limit 0, 4 
+2025-08-29 19:47:29.933 - DEBUG: [logger.js:246:9] Post::listLike 호출됨
+2025-08-29 19:47:29.934 - DEBUG: [logger.js:246:9] POST /api/post/list-user-like requested
+2025-08-29 19:47:29.934 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-29 19:47:29.936 - DEBUG: [logger.js:246:9] Post::listLike 호출됨
+2025-08-29 19:47:29.936 - DEBUG: [logger.js:246:9] POST /api/post/list-like requested
+2025-08-29 19:47:29.936 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-29 19:47:29.938 - DEBUG: [logger.js:246:9] SQL -> SELECT unique(USER)
+    FROM test.post
+    ORDER BY likes DESC
+    LIMIT 4
+2025-08-29 19:47:29.941 - DEBUG: [logger.js:246:9] SQL -> SELECT id,user,title, likes
+          FROM test.post
+          ORDER BY likes desc
+          LIMIT 5
+2025-08-29 19:47:30.884 - DEBUG: [logger.js:246:9] Post::list 호출됨
+2025-08-29 19:47:30.885 - DEBUG: [logger.js:246:9] POST /api/post/list requested
+2025-08-29 19:47:30.885 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":4}
+2025-08-29 19:47:30.886 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total 
+                  from test.post
+2025-08-29 19:47:30.887 - DEBUG: [logger.js:246:9] SQL -> select id,user,category,title,contents,createDate,likes,comments,thumbnail
+                from test.post  limit 0, 4 
+2025-08-29 19:47:33.894 - DEBUG: [logger.js:246:9] Post::list 호출됨
+2025-08-29 19:47:33.894 - DEBUG: [logger.js:246:9] POST /api/post/list requested
+2025-08-29 19:47:33.895 - DEBUG: [logger.js:246:9] PARAMS -> {"page":3,"perPage":4}
+2025-08-29 19:47:33.896 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total 
+                  from test.post
+2025-08-29 19:47:33.898 - DEBUG: [logger.js:246:9] SQL -> select id,user,category,title,contents,createDate,likes,comments,thumbnail
+                from test.post  limit 8, 4 
+2025-08-29 19:47:35.246 - DEBUG: [logger.js:246:9] Post::list 호출됨
+2025-08-29 19:47:35.246 - DEBUG: [logger.js:246:9] POST /api/post/list requested
+2025-08-29 19:47:35.247 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":4}
+2025-08-29 19:47:35.249 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total 
+                  from test.post
+2025-08-29 19:47:35.250 - DEBUG: [logger.js:246:9] SQL -> select id,user,category,title,contents,createDate,likes,comments,thumbnail
+                from test.post  limit 0, 4 
+2025-08-29 19:47:35.977 - DEBUG: [logger.js:246:9] Post::listLike 호출됨
+2025-08-29 19:47:35.978 - DEBUG: [logger.js:246:9] POST /api/post/list-like requested
+2025-08-29 19:47:35.978 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-29 19:47:35.980 - DEBUG: [logger.js:246:9] Post::listLike 호출됨
+2025-08-29 19:47:35.981 - DEBUG: [logger.js:246:9] POST /api/post/list-user-like requested
+2025-08-29 19:47:35.981 - DEBUG: [logger.js:246:9] PARAMS -> {}
+2025-08-29 19:47:35.982 - DEBUG: [logger.js:246:9] SQL -> SELECT id,user,title, likes
+          FROM test.post
+          ORDER BY likes desc
+          LIMIT 5
+2025-08-29 19:47:35.983 - DEBUG: [logger.js:246:9] SQL -> SELECT unique(USER)
+    FROM test.post
+    ORDER BY likes DESC
+    LIMIT 4
+2025-08-29 19:47:36.884 - DEBUG: [logger.js:246:9] Post::list 호출됨
+2025-08-29 19:47:36.885 - DEBUG: [logger.js:246:9] POST /api/post/list requested
+2025-08-29 19:47:36.885 - DEBUG: [logger.js:246:9] PARAMS -> {"page":1,"perPage":4}
+2025-08-29 19:47:36.887 - DEBUG: [logger.js:246:9] SQL -> select count(*) as total 
+                  from test.post
+2025-08-29 19:47:36.888 - DEBUG: [logger.js:246:9] SQL -> select id,user,category,title,contents,createDate,likes,comments,thumbnail
+                from test.post  limit 0, 4 
